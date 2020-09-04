@@ -1,11 +1,19 @@
 .milkyway {
-    background-image: url(images/milky-way.jpg);
+    background-image: radial-gradient(ellipse, #00000000 20%, #000000aa ), url(images/milky-way.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
     min-height: 100vh;
+}
 
-    box-shadow: inset 0 5vmin 20vmax 2vmin black;
+.display-1, .navbar-brand{
+    font-family: 'Alice', serif;
+}
+
+.display-1::first-letter, .navbar-brand::first-letter {
+    font-family: 'Kurale', serif;
+    font-size: 1.1em;
+    letter-spacing: -0.02em;
 }
