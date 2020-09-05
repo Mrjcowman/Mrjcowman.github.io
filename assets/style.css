@@ -1,6 +1,9 @@
 body {
     background-image: radial-gradient(circle, #00000000, #010109e0), url(images/background.png);
     background-position: center;
+    background-attachment: fixed;
+
+
     min-height: 100vh;
 }
 
