@@ -32,12 +32,18 @@ a {
 }
 
 .display-4 {
-    font-family: "Alice", "Kurale", Garamond, serif;
+    font-family: "Alice", Garamond, serif;
     color: white;
 }
 
+.display-4 .bigJ {
+    font-family: "Kurale", Garamond, serif;
+    font-size: 4rem;
+    letter-spacing: -0.08rem;
+}
+
 .lead {
-    font-family: "Alice", "Kurale", Garamond, serif;
+    font-family: "Alice", Garamond, serif;
     color: white;
 }
 
@@ -45,6 +51,8 @@ a {
     border-color: white;
     width: calc((20rem + 100%) / 2);
 }
+
+
 
 /* Button coloring */
 .btn-primary {
