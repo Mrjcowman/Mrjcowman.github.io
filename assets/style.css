@@ -45,11 +45,20 @@ a {
 .lead {
     font-family: "Alice", Garamond, serif;
     color: white;
+    font-size: 2rem;
 }
 
 .jumbotron hr {
     border-color: white;
     width: calc((20rem + 100%) / 2);
+}
+
+.card {
+    background-color: #222222;
+}
+
+.card-img-top {
+    size:cover;
 }
 
 
