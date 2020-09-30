@@ -23,3 +23,54 @@ body {
 a {
     white-space: nowrap;
 }
+
+.jumbotron {
+    background: radial-gradient(circle, #01010150, #010101e0),
+                url(images/mountainLights.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 {
+    font-family: "Alice", "Kurale", Garamond, serif;
+    color: white;
+}
+
+.lead {
+    font-family: "Alice", "Kurale", Garamond, serif;
+    color: white;
+}
+
+.jumbotron hr {
+    border-color: white;
+    width: calc((20rem + 100%) / 2);
+}
+
+/* Button coloring */
+.btn-primary {
+    background-color: #000000aa;
+    border-color: #dddddd;
+    font-family: "Alice", "Kurale", Garamond, serif;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem #0077ff;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #dddddd;
+    color: black;
+}
+
+.btn-primary:focus {
+    background-color: #000000aa;
+    border-color: #6aafff;
+    color: #6aafff;
+    box-shadow: 0 0 0 0.2rem #0077ff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #0077ff;
+    color: white;
+}
